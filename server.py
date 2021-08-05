@@ -3,6 +3,6 @@ import os
 
 PORT = 8080
 name = os.environ['NAME']
-if name == None or name.len() == 0:
+if name == None :
   name = "world"
 MESSAGE = "Hello," + name + "!\n"
