@@ -1,0 +1,8 @@
+import os
+
+
+PORT = 8080
+name = os.environ['NAME']
+if name == None or name.len() == 0:
+  name = "world"
+MESSAGE = "Hello," + name + "!\n"
