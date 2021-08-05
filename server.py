@@ -1,7 +1,7 @@
 import os
 
 
-PORT = 8080
+PORT = 80
 name = os.environ['NAME']
 if name == None :
   name = "world"
